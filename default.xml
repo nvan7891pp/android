@@ -15,9 +15,9 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="nvan7891pp/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -407,7 +407,6 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -464,6 +463,8 @@
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="build" name="nvan7891pp/android_build" remote="github" revision="stable/cm-11.0" />
+  <project path="prebuilt" name="nvan7891pp/android_prebuilt" remote="github" revision="stable/cm-11.0"
   <project path="my_scripts" name="nvan7891pp/scripts" revision="master" />
   <project path="linaro" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.04" />
 </manifest>
