@@ -15,7 +15,7 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="8" />
+           sync-j="16" />
 
   <project path="build" name="nvan7891pp/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
