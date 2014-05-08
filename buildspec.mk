@@ -32,7 +32,7 @@ endif
 # for debugging. Eng has lots of extra tools for development.
 ifndef TARGET_BUILD_VARIANT
 #TARGET_BUILD_VARIANT:=user
-TARGET_BUILD_VARIANT:=userdebug
+#TARGET_BUILD_VARIANT:=userdebug
 #TARGET_BUILD_VARIANT:=eng
 endif
 
@@ -47,13 +47,13 @@ endif
 
 # Set this to debug or release if you care. Otherwise, it defaults to release.
 ifndef TARGET_BUILD_TYPE
-TARGET_BUILD_TYPE:=debug
+#TARGET_BUILD_TYPE:=debug
 endif
 
 # Uncomment this if you want the host tools built in debug mode. Otherwise
 # it defaults to release.
 ifndef HOST_BUILD_TYPE
-HOST_BUILD_TYPE:=debug
+#HOST_BUILD_TYPE:=debug
 endif
 
 # Turn on debugging for selected modules. If DEBUG_MODULE_<module-name> is set
@@ -62,7 +62,7 @@ endif
 #DEBUG_MODULE_ModuleName:=true
 
 # Specify an alternative tool chain prefix if needed.
-TARGET_TOOLS_PREFIX:=prebuilt/linux-x86/toolchain/arm-cortex_a15-linux-gnueabihf-linaro_4.9/bin/arm-cortex_a15-linux-gnueabihf-
+TARGET_TOOLS_PREFIX:=/home/android/my_cm/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-eabi-
 
 # Specify the extra CFLAGS to use when building a module whose
 # DEBUG_MODULE_ variable is set. Host and device flags are handled
@@ -80,7 +80,7 @@ endif
 
 # If you have a special place to put your ouput files, set this, otherwise
 # it goes to <build-root>/out
-OUT_DIR:=/out
+OUT_DIR:=/out2
 
 # If you want to always set certain system properties, add them to this list.
 # E.g., "ADDITIONAL_BUILD_PROPERTIES += ro.prop1=5 prop2=value"
@@ -100,7 +100,7 @@ endif
 # To use ART but also include Dalvik, use "runtime_libart_default runtime_libdvm"
 ifndef OVERRIDE_RUNTIMES
 #OVERRIDE_RUNTIMES:=runtime_libart_default
-OVERRIDE_RUNTIMES:=runtime_libdvm_default runtime_libart
+#OVERRIDE_RUNTIMES:=runtime_libdvm_default runtime_libart
 #OVERRIDE_RUNTIMES:=runtime_libart_default runtime_libdvm
 endif
 
