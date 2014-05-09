@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <project path="kernel/samsung/klte" name="tdm/android_kernel_samsung_klte" remote="github" revision="master" />
+  <project path="device/samsung/klte" name="tdm/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/klte" name="tdm/proprietary_vendor_samsung_klte" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0" />
+  <project path="helper_scripts" name="nvan7891pp/scripts" revision="master" />
+  <project path="linaro" name="Christopher83/linaro_toolchains_2014" remote="github" revision="2014.04" />
+
+</manifest>
