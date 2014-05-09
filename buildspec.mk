@@ -80,7 +80,7 @@ endif
 
 # If you have a special place to put your ouput files, set this, otherwise
 # it goes to <build-root>/out
-OUT_DIR:=/out2
+OUT_DIR:=/out
 
 # If you want to always set certain system properties, add them to this list.
 # E.g., "ADDITIONAL_BUILD_PROPERTIES += ro.prop1=5 prop2=value"
